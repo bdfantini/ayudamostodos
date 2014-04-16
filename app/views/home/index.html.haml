@@ -1,0 +1,28 @@
+= render :partial => 'shared/menu'
+.row-fluid
+    .span8.offset1#columna_izquierda
+        .contenedor#mapa
+            .titulo
+                Mapa
+            #contenedorMapa
+    .span2#columna_derecha
+        .contenedor#donaciones
+            .titulo
+                Dona acá
+                %ul
+                    %li
+                        Página 1
+                    %li
+                        Página 2
+                    %li
+                        Página 3
+.row-fluid
+    .span4.offset1.contenedor#twitter
+        Aquí van los Tweets de la cuenta oficial (todavía pendiente por la compra del dominio)
+    .span4.contenedor#noticias
+        Noticias: Hay que hacer un administrador, ingresar usando devise para poder hacer links de noticias de otros sitios.
+    .span2.contenedor#contacto
+        Contacto
+.row-fluid
+    .span10.offset1.contenedor#patrocinadores
+        Patrocinadores
